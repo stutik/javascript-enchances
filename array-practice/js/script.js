@@ -35,3 +35,29 @@ console.log(reverSeElement);
 const sortNumber = ["dhgsfd", "wesd", "ytryu"];
 sortNumber.sort();
 console.log(sortNumber);
+
+//fill method
+const fillNumber = ["fda", "s", "", "dgfhjsd"];
+fillNumber.fill("2sw");
+console.log(fillNumber);
+
+//map method
+const arr = [2, 3, 4, 5, 6, 7, 8];
+const arrMultiple = arr.map((x) => x * 2);
+console.log(arrMultiple);
+
+//filter method
+const arrFilter = ["dfcgv", "gf", "dfas"];
+const arrfiltr = arrFilter.filter((x) => x.length > 2);
+console.log(arrfiltr);
+
+//concat method
+const arrCon = ["a", "b", "c"];
+const arrCon2 = ["d", "f", "g"];
+const arrCon3 = arrCon.concat(arrCon2);
+console.log(arrCon3);
+
+//flat method
+const multiArr = [1, 2, [3, 4]];
+const arrMultipleFlat = multiArr.flat();
+console.log(arrMultipleFlat);
