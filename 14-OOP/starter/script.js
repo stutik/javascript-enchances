@@ -108,6 +108,7 @@ ford.accelerate();
 DATA CAR 1: 'Tesla' going at 120 km/h, with a charge of 23%
 */
 //SOLUTION #2
+class EVCl extends CarCl {}
 const EV = function (make, speed, charge) {
   Car.call(this, make, speed);
   this.charge = charge;
