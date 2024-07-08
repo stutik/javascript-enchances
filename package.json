@@ -10,12 +10,12 @@
   "author": "Stuti Kesharwani",
   "license": "ISC",
   "devDependencies": {
-    "parcel": "^2.0.0-beta.1",
+    "parcel": "^2.12.0",
     "sass": "1.26.10"
   },
   "dependencies": {
-    "fractional": "^1.0.0",
     "core-js": "3.6.5",
+    "fractional": "^1.0.0",
     "regenerator-runtime": "0.13.7"
   }
 }
