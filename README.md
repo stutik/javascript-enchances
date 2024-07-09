@@ -18,6 +18,7 @@ Click on the desired recipe to view its ingredients
 Calculates the desired number of portions that the user chooses
 If the user likes the recipe, he will be able to save it, where the recipe will be saved in the storage, he will be able to see it every time he visits the application
 There is a possibility to upload a recipe, where the user will have to enter all the necessary ingredients
+
 The application provides the user with:
 Technologies
 HTML
